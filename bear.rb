@@ -19,6 +19,9 @@ def roar
   return "ROARRR!!! I AM BEARNARD!"
 end
 
+def greedy
+  return @belly.length
+end
 
 
 

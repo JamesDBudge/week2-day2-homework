@@ -44,6 +44,12 @@ def test_bear_can_roar
   assert_equal("ROARRR!!! I AM BEARNARD!", @bear.roar)
 end
 
+def test_can_bear_speak_and_tell_us_how_many_fish_he_ate
+  @river_name = River.new("Spey")
+  @river_name.add_fish_to_river(@bruce)
+  @bear.eats_a_fish(@nemo)
 
+  assert_equal(1, @bear.greedy)
+end
 
 end
