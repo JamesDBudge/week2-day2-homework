@@ -40,5 +40,10 @@ def test_bear_can_take_fishies_from_river
   assert_equal(1, @bear.belly.length)
 end
 
+def test_bear_can_roar
+  assert_equal("ROARRR!!! I AM BEARNARD!", @bear.roar)
+end
+
+
 
 end

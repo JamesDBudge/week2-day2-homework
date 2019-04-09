@@ -15,6 +15,10 @@ def eats_a_fish(fish)
   # p @belly
 end
 
+def roar
+  return "ROARRR!!! I AM BEARNARD!"
+end
+
 
 
 
