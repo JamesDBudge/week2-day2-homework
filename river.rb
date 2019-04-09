@@ -12,6 +12,9 @@ def add_fish_to_river(fish)
   @fish_in_river.push(fish)
 end
 
+def loses_a_fish(fish)
+  @fish_in_river.shift
+end
 
 
 
