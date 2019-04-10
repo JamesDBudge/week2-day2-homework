@@ -16,7 +16,7 @@ def eats_a_fish(fish)
 end
 
 def roar
-  return "ROARRR!!! I AM BEARNARD!"
+  return "ROARRR!!! I AM #{@name.upcase}!"
 end
 
 def greedy
